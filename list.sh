@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-[ -z  "$1" ] && echo "Enter Batch File as Input" 
-[ -z ]
+[ -z "$1" ] && echo "Enter Batch File as Input" 
+[ -n "$2" ] 

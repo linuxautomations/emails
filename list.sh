@@ -4,4 +4,4 @@
 [ -n "$2" ] && TYPE=TRAINING || TYPE=VIDEO
 
 
-cat $1.txt | grep $TYPE | grep -Ev '^$|^#' 
+cat $1.txt | grep $TYPE | grep -Ev '^$|^#'  >
